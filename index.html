@@ -5,12 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RC Analysis and Design Calculator</title>
     <style>
+        .site-header {
+            background-color: #003366;
+            color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 15px;
+        }
+        .image-button {
+            display: inline-block;
+            padding: 2px;
+            border-radius: 8px;
+            background-color: white;
+            transition:background-color 0.2s;
+            text-decoration: none;
+        }
+        .button-image {
+            height: 45px;
+            width: 45px;
+            object-fit: contain;
+            vertical-align: middle;
+            border-radius: 8px;
+        }
+        .image-button:hover {
+            background-color: #e0e0e0;
+        }
+        .site-footer {
+            background-color: #f3a26d;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            margin-top: 80px;
+            font-size: 14px;
+        }
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f9f9f9;
-            margin: 0;
-            padding: 20px;
+            margin-bottom: 20px;
         }
         h1 {
             margin-bottom: 40px;
@@ -53,8 +89,14 @@
     </style>
 </head>
 <body>
-
-    <h1>Reinforced Concrete Analysis and Design Calculator</h1>
+     <header class="site-header">
+        <div class="header-content">
+            <div>
+              <h1>REINFORCED CONCRETE CALCULATOR</h1>
+          </div>
+    </header>
+    
+    <h1></h1>
 
    <!-- Top Centered Button -->
     <div class="table-button">
@@ -86,5 +128,8 @@
         </a>
     </div>
 
+<footer class="site-footer">
+    <p>Reinforced Concrete Calculator created by Olivia Bracewell, UF Herbert Wertheim College of Engineering</p>
+</footer>
 </body>
 </html>
