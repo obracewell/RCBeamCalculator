@@ -78,6 +78,24 @@
             transform: scale(1.05);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
+        .large-button-row {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: 30px auto 0 auto;
+        }
+
+        .large-button-row a img {
+            width: 270px;
+            height: 175px;
+            object-fit: contain;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .large-button-row a img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
@@ -113,7 +131,7 @@
     </p>
     </div>
 
-   <!-- Top Centered Button -->
+   <Top Centered Button>
     <div class="table-button">
         <a href="https://obracewell.github.io/RCBeamCalculator-Tables/" target="_blank">
             <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/TablesImg2.png" alt="Table Button">
@@ -121,34 +139,35 @@
     </div>
 
     
-    <!-- Main Button Grid --> 
+    <Beam Button Grid> 
     <div class="button-container">
         <a href="https://obracewell.github.io/RCBeamAnalysisCalculator-SRB/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butSRBanalysis.png" alt="Button 1">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butSRBanalysis.png" alt="SRB Analysis Button">
         </a>
         <a href="https://obracewell.github.io/RCBeamAnalysisCalculator-TBeam/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butTBanalysis.png" alt="Button 2">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butTBanalysis.png" alt="TB Analysis Button">
         </a>
         <a href="https://obracewell.github.io/RCBeamAnalysisCalculator-DRB/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butDRBanalysis.png" alt="Button 3">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butDRBanalysis.png" alt="DRB Analysis Button">
         </a>
         <a href="https://obracewell.github.io/RCBeamDesignCalculator-SRB/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butSRBdesign.png" alt="Button 4">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butSRBdesign.png" alt="SRB Design Button">
         </a>
         <a href="https://obracewell.github.io/RCBeamDesignCalculator-TBeam/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butTBdesign.png" alt="Button 5">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butTBdesign.png" alt="TB Design Button">
         </a>
         <a href="https://obracewell.github.io/RCBeamDesignCalculator-DRB/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butDRBdesign.png" alt="Button 6">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butDRBdesign.png" alt="DRB Design Button">
+        </a>
+    </div>
+
+    //Column button grid
+    <div class="large-button-row">
+        <a href="https://obracewell.github.io/RCColumnDesignCalculator-Square/">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/squareCbutwide.png" alt="Square Column Button">
         </a>
         <a href="https://obracewell.github.io/RCColumnDesignCalculator-Square/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butSCdesign.png" alt="Button 7">
-        </a>
-        <a href="https://obracewell.github.io/RCBeamDesignCalculator-TBeam/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butCCdesign.png" alt="Button 8">
-        </a>
-        <a href="https://obracewell.github.io/RCBeamDesignCalculator-DRB/">
-            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/butRectCdesign.png" alt="Button 9">
+            <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/circleCbutwide.png" alt="Circle Column Button">
         </a>
     </div>
 
