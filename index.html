@@ -78,26 +78,20 @@
             transform: scale(1.05);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
-        .large-button-row {
+        .large-button-wrapper {
             display: flex;
             justify-content: space-between;
             max-width: 800px;
-            margin: 30px auto 0 auto;
+            margin: 20px auto 0 auto;
+            padding: 0 10px;
         }
-        .large-button-row a {
-            display: block;
-            margin: 0;
-            padding: 0;
-        }
-        .large-button-row a img {
-            width: 270px;
+        .large-button-wrapper a img {
+             width: 270px;
             height: 175px;
             object-fit: contain;
-            margin: 0;
-            padding: 0;
-            transition: transform 0.3s, box-shadow 0.3s;
+        transition: transform 0.3s, box-shadow 0.3s;
         }
-        .large-button-row a img:hover {
+        .large-button-wrapper a img:hover {
             transform: scale(1.05);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
@@ -167,7 +161,7 @@
     </div>
 
     <Column Button Grid>
-    <div class="large-button-row">
+    <div class="large-button-wrapper">
         <a href="https://obracewell.github.io/RCColumnDesignCalculator-Square/">
             <img src="https://raw.githubusercontent.com/obracewell/RCBeamCalculator/refs/heads/main/assets/squareCbutwide.png" alt="Square Column Button">
         </a>
